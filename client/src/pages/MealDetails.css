@@ -1,0 +1,86 @@
+.single-recipe-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+    padding-bottom: 50px;
+    background-color: #e9ffcc; /* Main background color */
+    border-radius: 10px;
+}
+
+.recipe-screens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: flex-start; /* Align items at the start of the cross axis */
+    margin-top: 20px;
+}
+
+.recipe-img-vid {
+    flex: 1; /* Take up available space */
+    margin-right: 20px; /* Add some space between the image/video and text */
+}
+
+.recipe-img-vid img {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px;
+    margin-bottom: 20px; /* Add some space between images and videos */
+}
+
+.recipe-details {
+    flex: 1; /* Take up available space */
+}
+
+.recipe-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e9b22f; /* Orange color for headings */
+}
+
+.recipe-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe-details h4 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.recipe-details p, .recipe-details li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.back-btn {
+    width: 115px;
+    margin: 2.5%;
+    font-weight: bold;
+    background-color: #e9b22f; /* Orange color for buttons */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #c4921d; /* Darker shade of orange on hover */
+}
+
+.btn {
+    margin: 1%;
+}
+
+.btn:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+}
+
+@media screen and (max-width: 992px) {
+    .recipe-screens {
+        flex-direction: column;
+    }
+}

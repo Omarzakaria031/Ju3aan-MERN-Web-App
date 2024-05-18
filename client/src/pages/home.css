@@ -1,0 +1,126 @@
+/* home.css */
+
+.home-container {
+    background-image: linear-gradient(#e8ffe1, transparent);
+    margin: 0 auto;
+    overflow-x: hidden;
+    padding: 50px 0;
+  }
+  
+  .home-banner {
+    background-color: rgb(235, 204, 119);
+    padding: 3% 0 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-banner h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .home-banner p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .home-banner img {
+    max-width: 275px;
+    border-radius: 50%;
+    margin: 1% auto;
+    transition: transform 0.3s;
+  }
+  
+  .home-banner img:hover {
+    transform: scale(1.1);
+  }
+  
+  #get-started-btn {
+    margin: 20px auto;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffb198;
+    opacity: 80%;
+    transition: background-color 0.3s, opacity 0.3s;
+  }
+  
+  #get-started-btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: block;
+    padding: 12px 0;
+  }
+  
+  #get-started-btn:hover {
+    opacity: 100%;
+    background-color: #ff8a65;
+  }
+  
+  .home-description {
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .home-description h3 {
+    margin: 2% 0;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .description-item-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 20px;
+  }
+  
+  .description-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .description-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .description-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    color: #6c757d;
+  }
+  
+  .description-item h4 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .description-item p {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  

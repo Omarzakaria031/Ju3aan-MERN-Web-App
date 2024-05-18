@@ -1,0 +1,59 @@
+/* header.css */
+
+.header {
+    background-color: #ffffff;
+    
+}
+
+.navbar {
+    justify-content: right; /* Center the links in both desktop and mobile */
+}
+
+.navbar-container {
+    margin: 0 3%;
+    min-height: 75px;
+    max-height: 120px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.logo-img {
+    max-width: 275px; /* Adjust the maximum width as needed */
+    max-height: 100px; /* Adjust the maximum height as needed */
+}
+
+.page-title {
+    color: #EBB22F;
+    text-decoration: none;
+    text-align: left;
+    font-size: 40px;
+}
+
+.page-title:hover {
+    color: rgb(255, 159, 135);
+    opacity: 50%;
+    transition: all .5s ease;
+}
+
+.navbar-links {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff7e5f;
+}
+
+/* Mobile Menu */
+.navbar-collapse {
+    background-color: #ffffff !important; /* Set the mobile menu background to white */
+    justify-content: center; /* Center the links in the mobile menu */
+}
